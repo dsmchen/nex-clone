@@ -2,12 +2,10 @@
 	import Hero from '#lib/components/Hero.svelte';
 	import Meet from '#lib/components/Meet.svelte';
 	import Games from '#lib/components/Games.svelte';
-	import Safety from '#lib/components/Safety.svelte';
 </script>
 
 <main class="min-h-screen bg-white">
 	<Hero />
 	<Meet />
 	<Games />
-	<Safety />
 </main>
