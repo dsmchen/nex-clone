@@ -17,7 +17,8 @@
 			<a
 				href="#meet"
 				class="flex size-12 items-center justify-center bg-portal text-3xl text-white"
-				aria-hidden="true"><span class="icon-[mdi--arrow-right-bold]"></span></a
+				aria-hidden="true"
+				tabindex="-1"><span class="icon-[mdi--arrow-right-bold]"></span></a
 			>
 			<a href="#meet" class="inline-block bg-white px-5 py-3 text-portal">Learn More</a>
 		</div>
