@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import Logo from './Logo.svelte';
+	import IconLogo from './IconLogo.svelte';
 </script>
 
 <section class="relative flex min-h-[70vh] flex-col items-center text-center">
 	<enhanced:img src="#lib/assets/screentime.webp" alt="Family sitting on couch on their devices" />
 	<div class="absolute z-10 flex h-full flex-col items-center px-6">
 		<div class="my-8 w-28">
-			<a href={resolve('/')}> <Logo /> </a>
+			<a href={resolve('/')}> <IconLogo /> </a>
 		</div>
 		<h1 class="mt-16 max-w-xl font-display text-7xl font-bold text-checkpoint uppercase">
 			What happened to family time?
