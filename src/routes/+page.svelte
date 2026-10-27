@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import Hero from '#lib/components/Hero.svelte';
+	import Games from '#lib/components/Games.svelte';
+	import Safety from '#lib/components/Safety.svelte';
+</script>
+
+<main class="min-h-screen bg-white">
+	<Hero />
+	<Games />
+	<Safety />
+</main>
