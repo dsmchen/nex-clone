@@ -1,1 +1,13 @@
 @import 'tailwindcss';
+
+@theme {
+	--font-display: 'Luckiest Guy', cursive;
+	--color-checkpoint: #271c13;
+	--color-portal: #573aff;
+}
+
+@plugin '@iconify/tailwind4';
+
+body {
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
