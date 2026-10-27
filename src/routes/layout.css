@@ -2,7 +2,10 @@
 
 @theme {
 	--font-display: 'Luckiest Guy', cursive;
+	--color-bone: #ededed;
 	--color-checkpoint: #271c13;
+	--color-ocean: #00ccb8;
+	--color-pixel: #007e2e;
 	--color-portal: #573aff;
 }
 
