@@ -27,9 +27,7 @@
 		{#each rotates as rotate, i (i)}
 			<div class={`row flex ${rotate}`}>
 				{#each games as game, i (i)}
-					<div
-						class={`card text-9xl z-${i} -mr-10 rounded-4xl border-8 border-checkpoint bg-bone p-4`}
-					>
+					<div class="card -mr-10 rounded-4xl border-8 border-checkpoint bg-bone p-4 text-9xl">
 						{game.emoji}
 					</div>
 				{/each}
